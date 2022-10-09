@@ -5,45 +5,45 @@ coverY: 0
 
 # 🗂 Google Drive (1.17.1+)
 
-## How to use Google Drive
+## Как использовать Google Drive
 
 {% hint style="warning" %}
-This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+Этот метод имеет некоторые проблемы на некоторых ПК в версиях Minecraft до 1.17 из-за ошибки в Minecraft, подробнее читайте здесь: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+Этот метод работает в 100% случаев на Minecraft 1.17.1 и выше.
 {% endhint %}
 
-### Step 1
+### Этап 1
 
-Rightclick on your resourcepack zip file and press "Get link"
+Нажмите ПКМ по zip-файлу ресурспака и нажмите "Получить ссылку".
 
 ![](<../../.gitbook/assets/immagine (153) (1).png>)
 
-### Step 2
+### Этап 2
 
-Important: set the permission to "Anyone with the link"
+Важно: Установите разрешение "Любой, у кого есть ссылка".
 
 ![](<../../.gitbook/assets/immagine (145).png>)
 
-Press "Copy link"
+Нажмите "Скопировать ссылку"
 
 ![](<../../.gitbook/assets/immagine (149).png>)
 
-### Step 3
+### Этап 3
 
-Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
+Посетите этот веб-сайт: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
-Paste the link and press on "Get direct link"
+Вставьте ссылку и нажмите "Получить прямую ссылку".
 
 ![](<../../.gitbook/assets/immagine (144).png>)
 
-### Step 4
+### Этап 4
 
-The website automatically adds the generated link in your clipboard.
+Сайт автоматически добавляет сгенерированную ссылку в буфер обмена.
 
 ![](<../../.gitbook/assets/immagine (147).png>)
 
-You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
+Теперь вы можете вставить ссылку в конфигурационный файл **ItemsAdder** `config.yml`, а затем использовать команду `/iareload`.
 
 {% code title="config.yml" %}
 ```yaml
@@ -53,22 +53,22 @@ external-host:
 ```
 {% endcode %}
 
-### Done!
+### Готово!
 
-You can now see that the pack is correctly loaded by the game.
+Теперь вы можете видеть, что ресурспак корректно загружается игрой.
 
-## Common issues
+## Распространенные проблемы
 
-### Long time on "Making Request... 100%"
+### Долгое время на "Делаем запрос... 100%"
 
 ### ![](<../../.gitbook/assets/immagine (146).png>)
 
-This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
+Это нормально. Это происходит потому, что Google Drive выполняет некоторые действия перед авторизацией загрузки ресурспака.
 
-This happens only when the player downloads the resourcepack for the first time and it will take from 5 to 10 seconds.
+Это произойдет только тогда, когда игрок впервые загрузит ресурспак, и займет от 5 до 10 секунд.
 
-### Resourcepack not loading at all
+### Ресурспак не загружается вообще
 
-This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+Этот метод имеет некоторые проблемы на некоторых ПК в версиях Minecraft до 1.17 из-за ошибки в Minecraft, подробнее читайте здесь: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+Этот метод работает в 100% случаев на Minecraft 1.17.1 и выше.
