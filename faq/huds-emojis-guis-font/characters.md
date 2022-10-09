@@ -1,24 +1,24 @@
 ---
-description: Square character
+description: Квадратный символ
 ---
 
-# \[] characters
+# \[] символ
 
-## I see \[] character after uninstalling Custom ESC addon
+## Я вижу \[] символ после удаления аддона Custom ESC
 
 {% hint style="info" %}
-This is useful to uninstall [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
+Такое случается часто, после удаления [аддона Custom ESC](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
 {% endhint %}
 
-You have to delete this folder lang folder: `data\resource_pack\assets\minecraft\lang`
+Вы должны удалить эту папку:`data\resource_pack\assets\minecraft\lang`
 
-Then run `/iazip` command.
+Дальше, запустить команду `/iazip`.
 
 ![](<../../.gitbook/assets/immagine (150).png>)
 
-## I see \[] instead of my emojis/ranks
+## Я вижу \[] вместо моих эмодзи/ранков
 
-Make sure to run /iazip and reupload the resourcepack if needed.
+Обязательно пропишите команду /iazip и переустановите ресурспак, если это необходимо.
 
-Read more here: [resourcepack hosting](../../plugin-usage/resourcepack-hosting/)
+Больше информации тут: [Хостинг для текстур](../../plugin-usage/resourcepack-hosting/)
 
