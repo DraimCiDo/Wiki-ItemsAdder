@@ -10,13 +10,13 @@
 
 ![](<../../.gitbook/assets/immagine (3).png>)
 
-## Отключить жажду
+## Отключение жажды
 
 * откройте файл по пути plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
 * установите значение enabled: false
 * используйте команду /iareload
 
-## Disable mana
+## Отключение маны
 
 * откройте файл по пути plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
 * установите значение enabled: false
