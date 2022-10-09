@@ -1,6 +1,6 @@
 # Создание 3D-модели
 
-## Creating 3D model from a texture
+## Создание 3D модели из текстуры
 
 {% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
 
@@ -18,7 +18,7 @@
    },
 ```
 
-вы должны добавить **namespace** перед ним(`my_items` в моем примере, вы должны использовать свой namespace).
+Вы должны добавить **namespace** перед ним(`my_items` в моем примере, вы должны использовать свой namespace).
 
 ```javascript
  "textures":{
