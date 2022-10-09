@@ -55,9 +55,9 @@ specific_properties:
     * текстуры/модели становятся невидимыми на дальних дистанциях от игрока из-за оптимизации ванильных текстур спавнеров
     * может вызвать лаги на стороне игрока, клиент может начать виснуть при огромном количестве таких блоков рядом с игроком, но только на очень слабых ПК.
 * `FIRE`
-  * this is a **special **type of **block**, it's the **fire **block.
-  * downsides: 
-    * only a **max **of **14 **custom **fires **is possible, so be sure to create only the ones you need.
+  * это **специальный** тип **блока**, это **fire** блок.
+  * минусы: 
+    * поддерживает **максимально** до **14** кастомных **огней**.
 
 {% hint style="warning" %}
 Блоки типов REAL/REAL\_NOTE лучше использовать для декоративных блоков/руд,а блоки типа TILE для торговых автоматов или других редковстречаемых декоративных блоков.  
@@ -66,12 +66,11 @@ specific_properties:
 
 ### placeable_on_water
 
-This allows to make some blocks placeable directly on **water **surface.
+Это позволяет сделать некоторые блоки размещаемыми прямо на **water** поверхности.
 
 ### **placeable_on_lava**
 
-This allows to make some blocks placeable directly on **lava **surface.
-
+Это позволяет сделать некоторые блоки размещаемыми прямо на **lava** поверхности.
 ### shift_up
 
 Это позволяет сделать некоторые блоки размещенными на 1 блок выше. Это полезно для блоков `REAL_WIRE` для создания высоких растений. 
