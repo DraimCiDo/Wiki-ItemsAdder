@@ -1,18 +1,18 @@
-# Определите, почему не отображаются текстуры
+# Как определить, почему не отображаются текстуры?
 
-### Enable output log
+### Включите логи в Minecraft лаунчере.
 
 ![](<../.gitbook/assets/immagine (135).png>)
 
-### Join the server and read the log
+### Зайдите на сервер и прочитайте логи.
 
 ![](<../.gitbook/assets/immagine (139).png>)
 
-### Find out which file is broken
+### Найдите какой файл сломан.
 
-You can clearly see which files failed to load and why, the errors are clear in most of the cases.\
-In this example i had two broken files `gem_vending_machine` and `whitebathroom_sink`. \
-The error tells me that the json files are broken, they probably have bad characters inside or they are corrupted.
+Вы можете четко увидеть, какие файлы не удалось загрузить и почему, ошибки ясны в большинстве случаев.\
+В данном примере, было два битых файла `gem_vending_machine` и `whitebathroom_sink`. \
+Ошибка говорится, что json-файлы повреждены, возможно, в них присутствуют плохие символы или они повреждены.
 
 ###
 
