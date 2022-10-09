@@ -1,8 +1,8 @@
-# Рецепты крафтинга
+# Рецепты крафта
 
-In order to create a recipe for your items in your [namespace ](../../beginners/basic-concepts/namespace.md)you have to create a special section in one of your .yml files (or on each one, you decide how you want to organize the plugin).
+Чтобы создать рецепт для ваших элементов в вашем [namespace ](../../beginners/basic-concepts/namespace.md), вы должны создать специальный раздел в одном из ваших .yml файлов (или в каждом, вы решаете, как вы хотите организовать плагин).
 
-## Example 3x3 recipe
+## Пример рецепта 3х3
 
 ![](<../../../../.gitbook/assets/immagine (42).png>)
 
@@ -25,10 +25,10 @@ recipes:
         amount: 1
 ```
 
-As you can see I created the recipes section in the .yml file, this section can contain each type of recipe.\
-In this example I created a `crafting_table `recipe called `deadmau5_hat`
+Как вы видите, я создал секцию рецептов в .yml файле, эта секция может содержать каждый тип рецепта.\
+В этом примере я создал `crafting_table` рецепт под названием `deadmau5_hat`.
 
-## Example 2x2 recipe
+## Пример рецепта 2x2
 
 ![](<../../../../.gitbook/assets/immagine (41).png>)
 
@@ -50,11 +50,11 @@ taco:
 ```
 
 {% hint style="warning" %}
-You must set first line to XXX, and every ingredient on the bottom right.
+Вы должны установить первую строку на XXX, а все ингредиенты - справа внизу.
 {% endhint %}
 
 {% hint style="success" %}
-You can create \*\*multiple patterns \*\*per recipe, just make sure that the attribute \*\*starts \*\*with '**pattern**' text. For example pattern\_2.
+Вы можете создать \*\*много шаблонов\*\* на рецепт, только убедитесь, что атрибут \*\*начинается\*\* с текста '**pattern**'. Например, pattern\_2.
 
 ```yaml
 turquoise_sword:
