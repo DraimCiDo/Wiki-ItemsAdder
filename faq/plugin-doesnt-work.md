@@ -8,9 +8,9 @@
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-## Did you recently update your server/plugin or install a new plugin?
+## Вы недавно обновили сервер/плагин или установили новый плагин?
 
-Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+Попробуйте удалить новый плагин, восстановить из резервной копии сервера или понизить версию обновленного плагина/сервера и проверьте, сохраняется ли проблема.
 
 ### **Если ваша проблема не будет решена, прочтите информацию ниже и напишите мне:** <a href="if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
