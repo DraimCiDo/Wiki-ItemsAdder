@@ -1,5 +1,5 @@
 ---
-description: Edit default minecraft json files and predicates.
+description: Редактирование стандартных json-файлов minecraft и предикатов.
 ---
 
 # Не могу изменять классические текстуры игры
