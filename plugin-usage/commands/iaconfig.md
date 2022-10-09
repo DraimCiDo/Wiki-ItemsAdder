@@ -1,51 +1,51 @@
 # iaconfig
 
-## Features
+## Функции
 
-### Delete an item from config
+### Удалить предмет из конфигурации
 
 `/iaconfig item delete <item>`
 
-Permission: `ia.admin.iaconfig.item.delete`
+Право: `ia.admin.iaconfig.item.delete`
 
-Deletes an item COMPLETELY from its config file. Please be careful.
+Полностью удаляет предмет из его конфигурационного файла. Пожалуйста, будьте осторожны.
 
-### Disable an item in configs
+### Отключить предмет в конфигурации
 
 `/iaconfig item disable <item>`
 
-Permission: `ia.admin.iaconfig.item.disable`
+Право: `ia.admin.iaconfig.item.disable`
 
-Disables an item from its config file. Please be careful.
+Отключает предмет из его конфигурационного файла. Пожалуйста, будьте осторожны.
 
-### Delete recipes which use/create an item
+### Удалить рецепты, в которых используется/создается предмет
 
 `/iaconfig recipes deleteofitem <item>`
 
-Permission `ia.admin.iaconfig.recipes.deleteofitem`
+Право: `ia.admin.iaconfig.recipes.deleteofitem`
 
-Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
+Удаляет ПОЛНОСТЬЮ все рецепты, содержащие предмет, из всех файлов конфигурации. Пожалуйста, будьте осторожны.
 
-### Disable recipes which use/create an item
+### Отключить рецепты, в которых используется/создается предмет
 
 `/iaconfig item disableofitem <item>`
 
-Permission: `ia.admin.iaconfig.recipes.disableofitem`
+Право: `ia.admin.iaconfig.recipes.disableofitem`
 
-Disables all recipes which contain an item from all the config files. Please be careful.
+Отключает все рецепты, содержащие предмет, из всех файлов конфигурации. Пожалуйста, будьте внимательны.
 
-### Delete all items of a namespace and recipes of these items
+### Удалить все предметы namespace`а и рецепты этих предметов
 
 `/iaconfig namespace delete <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.delete`
+Право: `ia.admin.iaconfig.namespace.delete`
 
-Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
+Полностью удаляет все предметы namespace`а и рецепты этих предметов. Пожалуйста, будьте осторожны.
 
-### Disable every item of a namespace
+### Отключает все премедты в namespace`е
 
 `/iaconfig namespace disable <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.disable`
+Право: `ia.admin.iaconfig.namespace.disable`
 
-Disables every item of a namespace and recipes of these items. Please be careful.
+Отключает каждый предмет namespace`а и рецепты этих предметов. Пожалуйста, будьте осторожны.
