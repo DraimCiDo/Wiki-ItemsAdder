@@ -1,26 +1,27 @@
-# Подсказка Resourcepack (1.17+)
+# ☑ Сообщение с подсказкой Resourcepack (1.17+)
 
 {% hint style="warning" %}
-### Available only on Minecraft 1.17 client
+## Доступно только на клиенте Minecraft 1.17
 {% endhint %}
 
-## Custom resourcepack prompt message
+## Пользовательское сообщение подсказки ресурспака
 
-### Step 1
+### Шаг 1
 
-Open `ItemsAdde\lang\en.yml` file (or your language)
+Откройте файл `ItemsAdde\lang\en.yml` (или ваш язык)
 
-### Step 2
+### Шаг 2
 
-Customize the message: `resourcepack-popup-message`.
+Настройте сообщение: `resourcepack-popup-message`.
 
 ```yaml
-resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.\n
-&aYou need only to download it only once."
+resourcepack-popup-message: "&6Приветствуем &b{player}, &6пожалуйста, примите ресурс-пак, чтобы насладиться всеми удивительными возможностями нашего сервера.\n
+&aВам нужно скачать его только один раз."
 ```
 
-(You can use `\n` as newline)
+(Вы можете использовать `\n` в качестве новой строки)
 
-### Done
+### Готово
 
 ![](<../.gitbook/assets/immagine (127).png>)
+

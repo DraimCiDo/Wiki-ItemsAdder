@@ -1,39 +1,39 @@
 ---
-description: Merge other resourcepacks (also custom plugins resourcepacks)
+description: Слияние других ресурспаков (также ресурспаков пользовательских плагинов)
 ---
 
-# 🗃 Merge resourcepacks
+# 🗃 Слияние ресурс-паков
 
-## Why merging?
+## Зачем объединяться?
 
-**Minecraft **supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
+**Minecraft** поддерживает **только 1 серверный ресурспак**, поэтому если у вас несколько ресурспаков, вам нужно объединить их.
 
-## How to merge?
+## Как объединить?
 
-### Step 1
+### Шаг 1
 
-Copy the `assets` folder of your resourcepack.
+Скопируйте папку `assets` вашего ресурспака.
 
-### Step 2
+### Шаг 2
 
-Paste the `assets` folder of your resourcepack inside the **ItemsAdder** folder: `plugins\ItemsAdder\data\resource_pack\`
+Вставьте папку `assets` вашего ресурспака в папку **ItemsAdder**: `plugins\ItemsAdder\data\resource_pack\`
 
-### Step 3
+### Шаг 3
 
-Open `config.yml` of **ItemsAdder** and set this option:
+Откройте `config.yml` файла **ItemsAdder** и установите этот параметр:
 
 ```yaml
 overwrite-vanilla-models: false
 ```
 
-### Step 4
+### Шаг 4
 
-Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided)
+Используйте команду `/iazip` для сжатия ресурспака ItemsAdder.\
+(Обязательно следуйте [докуматация по хостингу](../resourcepack-hosting/) на основе метода хостинга, который вы выбрали)
 
-### Done.
+### Выполнено.
 
-## Examples
+## Примеры
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
 [modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)

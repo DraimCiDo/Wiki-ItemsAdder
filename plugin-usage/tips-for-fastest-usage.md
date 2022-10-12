@@ -22,7 +22,7 @@ resource-pack:
     auto-external-host:
       enabled: false
     self-host:
-      enabled: true # <----- HERE, set true
+      enabled: true # <----- ЗДЕСЬ, установите true
       server-ip: '127.0.0.1'
       pack-port: 8163
     external-host:

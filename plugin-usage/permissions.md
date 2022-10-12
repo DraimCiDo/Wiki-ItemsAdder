@@ -9,10 +9,10 @@
   * /iatexture
     * `ia.user.iatexture`
   * крафтинг
-    * `ia.user.craft.PERMISSION` \(или выдайте все права на крафты сразу одной строкой - ia.user.craft.\*\)
+    * `ia.user.craft.PERMISSION` \(*или выдайте все права на крафты сразу одной строкой - `ia.user.craft`.*\)
     * чтобы получить больше информации о правах для предмета - [ознакомьтесь](adding-content/advanced/item-properties/basic/item-permission.md)
   * просмотр предметов в меню /ia
-    * `ia.user.ia.PERMISSION` \(или выдайте все права на /ia меню одной строкой - ia.user.ia.\*\)
+    * `ia.user.ia.PERMISSION` \(*или выдайте все права на /ia меню одной строкой - `ia.user.ia`*.\)
     * чтобы получить больше информации о правах для предмета - [ознакомьтесь](adding-content/advanced/item-properties/basic/item-permission.md)
     * `ia.user.iasearchgui` для выдачи права на функцию поиска в виде GUI для меню /ia
     * Также, плагин позволяет устанавливать права на категории предметов, можете ознакомиться с данной страницей - [/ia GUI ](ia.md)
@@ -35,7 +35,7 @@
       * `ia.user.image.use.<font image name>`
       * Пример: `ia.user.image.use.heart`
 
- 
+  ​
 
 * Для администраторов
   * /iaget
@@ -53,7 +53,7 @@
   * /iablock \(дает информацию о блоке, на который вы смотрите\)
     * `ia.admin.iablock`
   * /iadurability
-    * ia.admin.iadurability
+    * `ia.admin.iadurability`
   * Право редактирования \(кнопка редактирование в меню /ia\)
     * `ia.admin.edit`
   * /iaplayerstat write \(установка значений статистик игрока плагина\)

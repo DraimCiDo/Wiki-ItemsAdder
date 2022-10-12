@@ -1,34 +1,34 @@
 ---
-description: How to manually edit blockstates json files
+description: Как вручную редактировать файлы blockstates.json
 ---
 
-# Manual editing blockstates
+# Ручное редактирование blockstates
 
-## Edit note_block.json
+## Редактирование note\_block.json
 
 {% hint style="warning" %}
-Update to ItemsAdder 2.4.20
+Обновленитесь до ItemsAdder 2.4.20
 {% endhint %}
 
-You can manually edit the file `assets\minecraft\blockstates\note_block.json` adding your own rules inside.
+Вы можете вручную отредактировать файл `assets\minecraft\blockstates\note_block.json`, добавив в него свои собственные правила.
 
-**ItemsAdder **will automatically merge your custom json file with the **ItemsAdder **custom blocks if you created any.
+**ItemsAdder** автоматически объединит ваш пользовательский json-файл с пользовательскими блоками **ItemsAdder**, если вы их создали.
 
-## Editing other .json blockstates
+## Редактирование других blockstates .json
 
-You can edit any blockstate file you want, but you have to read this in order to edit some of them.
+Вы можете редактировать любой файл блокчейна, но для редактирования некоторых из них вы должны прочитать следующее.
 
-In order to edit the some blockstates files you have to disable the ItemsAdder custom blocks feature based on the type you want to edit. In the future I may allow manual editing of these files without disabling the ItemsAdder blocks feature (it's not easy to implement, that's why I didn't make this possible yet).
+Чтобы редактировать некоторые файлы blockstates, вы должны отключить функцию пользовательских блоков ItemsAdder в зависимости от типа, который вы хотите редактировать. В будущем я могу разрешить ручное редактирование этих файлов без отключения функции блоков ItemsAdder (это нелегко реализовать, поэтому я пока не сделал такую возможность)..
 
 ### mushroom blockstates
 
-Delete the files: 
+Удалите файлы:&#x20;
 
-* `assets\minecraft\blockstates\brown_mushroom_block.json` 
+* `assets\minecraft\blockstates\brown_mushroom_block.json`&#x20;
 * `assets\minecraft\blockstates\mushroom_stem.json`
 * `assets\minecraft\blockstates\red_mushroom_block.json`
 
-Enable this option:
+Включите этот параметр:
 
 {% code title="config.yml" %}
 ```yaml
@@ -38,9 +38,9 @@ Enable this option:
 
 ### fire.json
 
-Delete the file `assets\minecraft\blockstates\fire.json`
+Удалите файл `assets\minecraft\blockstates\fire.json`
 
-Enable this option:
+Включите этот параметр:
 
 {% code title="config.yml" %}
 ```yaml
@@ -48,11 +48,11 @@ Enable this option:
 ```
 {% endcode %}
 
-### chorus_plant.json
+### chorus\_plant.json
 
-Delete the file `assets\minecraft\blockstates\chorus_plant.json`
+Удалите файл `assets\minecraft\blockstates\chorus_plant.json`
 
-Enable this option:
+Включите этот параметр:
 
 {% code title="config.yml" %}
 ```yaml
@@ -62,9 +62,9 @@ Enable this option:
 
 ### tripwire.json
 
-Delete the file `assets\minecraft\blockstates\tripwire.json`
+Удалите файл `assets\minecraft\blockstates\tripwire.json`
 
-Enable this option:
+Включите этот параметр:
 
 {% code title="config.yml" %}
 ```yaml

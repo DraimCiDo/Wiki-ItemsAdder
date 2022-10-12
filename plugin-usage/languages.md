@@ -1,6 +1,6 @@
 # Языки
 
-## Доступные в настоящее время языки
+### Доступные на данный момент языки
 
 ```
 GUI: 
@@ -26,24 +26,25 @@ Items:
     French fr
     Italian it
     Portuguese pt
+    Russian ru
     Turkish tr
 ```
 
-## Как изменить язык?
+### Как изменить язык?
 
 Откройте файл config.yml и измените настройки языка.
 
 ```yaml
 config_files:
-  lang: 'en'
-  dictionaries-lang: 'en'
+  lang: 'ru'
+  dictionaries-lang: 'ru'
 ```
 
 ## Как редактировать или создавать новые языки?
 
-Файлы **плагинов** сообщений **языка** находятся в **этой папке**: `plugins\ItemsAdder\lang\`.
+Сообщения **плагина** каждого **языка** находятся в **этой папке**: `plugins\ItemsAdder\lang\`
 
-Файлы **элементов по умолчанию** и **языков меню** находятся в **этой папке**: `plugins\ItemsAdder\data\items_packs\dictionaries\`.
+**Предметы по умолчанию** и **языки меню** находятся в **этой папке**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
 Некоторые аддоны могут помещать свои файлы словарей в другие папки внутри items\_packs, вам придется искать их.

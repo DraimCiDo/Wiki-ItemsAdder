@@ -1,8 +1,8 @@
 ---
-description: Disable the scoreboard background
+description: Отключение фона скорборда
 ---
 
-# Hide Scoreboard background
+# Скрытие фона скорборда
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/scoreboard.md" %}
 [scoreboard.md](../../compatibility-with-other-plugins/compatible/scoreboard.md)

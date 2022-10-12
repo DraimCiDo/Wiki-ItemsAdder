@@ -1,43 +1,46 @@
 ---
-description: Disable red scoreboard numbers
+description: Отключить красные цифры в скорборде
 ---
 
-# Скрыть номера Scoreboard (1.17+)
+# Скрыть цифры в ScoreBoard (1.17+)
 
-## Scoreboard numbers
+## Scoreboard цифры
 
-Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
+Некоторые серверы используют scoreboard для отображения пользовательских данных и не используют красные цифры, они просто ужасно выглядят на большинстве серверов.
 
-![Without ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
+![Без ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
 
-![With ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
+![С помощью ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
 
-## Limitations
+## Ограничения
 
 {% hint style="danger" %}
-#### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### Эта функция работает только на клиенте **Minecraft 1.17**, версия сервера не имеет значения.
 {% endhint %}
 
 {% hint style="warning" %}
-#### Warning:
+### Предупреждение:
 
-Using <mark style="color:red;">**RED **</mark>**(\&c**) color on the scoreboard may **cause glitches**.\
-This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\\
+Использование <mark style="color:red;">**Красных**</mark> (<mark style="color:red;">**\&c**</mark>) цветов в скорборде могут **вызывать сбои**.\
+Это происходит, когда у вас есть красный текст в правой части скорборда, а настройки масштаба GUI установлены на 1 или 3.\
 
-#### How to use <mark style="color:red;">`&c`</mark> color without issues?
 
-You can change your text color from <mark style="color:red;">`&c`</mark> to <mark style="color:red;">`{#ff5546}`</mark>, it's the same color but it won't be bugged.
+### Как использовать <mark style="color:red;">`&c`</mark> цвет без проблем?
 
-Another way to fix this is to \*\*add some spaces at the end \*\*of your red text to avoid this.
+Вы можете изменить цвет текста <mark style="color:red;">`&c`</mark> на <mark style="color:red;">`{#ff5546}`</mark>, это тот же цвет, но он не будет прослушиваться.
+
+
+
+Другой способ исправить это - **добавить несколько пробелов в конце** вашего красного текста, чтобы избежать этого.
 {% endhint %}
 
 ![](<../../.gitbook/assets/immagine (140).png>)
 
-## How to hide them?
+## Как их спрятать?
 
-ItemsAdder **2.4.19** allows you to hide the scoreboard numbers.
+ItemsAdder **2.4.19** позволяет скрыть цифры.
 
-To do that you have to enable the feature in `config.yml` and run **/iazip**.
+Для этого нужно включить функцию в `config.yml` и запустить **/iazip**.
 
 ```yaml
 effects:
@@ -45,8 +48,8 @@ effects:
 ```
 
 {% hint style="warning" %}
-#### Warning
+### Предупреждение
 
-this option is definitive and cannot be turned on/off in-game.\
-You will have to disable it in the `config.yml` and run `/iazip` again if you want to show the numbers.
+Эта опция окончательная и не может быть включена/выключена в игре.\
+Вам придется отключить ее в `config.yml` и запустить `/iazip` снова, если вы хотите показать числа.
 {% endhint %}

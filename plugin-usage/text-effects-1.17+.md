@@ -1,16 +1,20 @@
-# Текстовые эффекты (1.17+)
+---
+description: Анимация текста
+---
 
-## What are text effects?
+# Эффекты текста (1.17+)
 
-ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
+## Что такое эффекты текста?
+
+ItemsAdder ***2.4.19** предлагает несколько классных декоративных текстовых эффектов, которые вы можете использовать в своем сервере, чтобы сделать его более профессиональным.
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+## Эта функция работает только на клиенте **Minecraft 1.17**, версия сервера не имеет значения.
 {% endhint %}
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable/disable this feature.\
-Make sure also to enable it in the `config.yml`.
+Вам нужно прописать `/iazip`, чтобы включить/выключить эту функцию.\
+Не забудьте также включить ее в `config.yml`.
 
 ```yaml
 effects:
@@ -28,22 +32,24 @@ effects:
 ```
 {% endhint %}
 
-## Permissions
 
-* Use **text-effects** in **chat**
+
+## Разрешения
+
+* Использование **text-effects** в **chat**
   * `ia.user.text_effect.chat`
-* Use\*\* text-effects\*\* in **signs**
+* Использование **text-effects** в**signs**
   * `ia.user.text_effect.sign`
-* Use **text-effects** in **books**
+* Использование **text-effects** в **books**
   * `ia.user.text_effect.book`
-* Use **text-effects** in \*\*anvil \*\*rename field
+* Использование **text-effects** в **anvil**
   * `ia.user.text_effect.anvil`
-* Use a **text-effect**
+* Использование **text-effect**
   * `ia.user.text_effect.use.<effect>`
 
-## List of effects
+## Список эффектов
 
-### Rainbow
+### Радуга
 
 ![](../.gitbook/assets/rainbow.gif)
 
@@ -53,19 +59,19 @@ effects:
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+Разрешение: `ia.user.text_effect.use.r`\
+Использование: `<r text>`
 
-### Wobble
+### Колебания
 
 ![](../.gitbook/assets/wobble.gif)
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+Разрешение: `ia.user.text_effect.use.w`\
+Использование: `<w text>`
 
-### Jump
+### Прыжки
 
 ![](../.gitbook/assets/jump\_chat.gif)
 
@@ -73,37 +79,37 @@ Usage: `<w text>`
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+Разрешение: `ia.user.text_effect.use.j`\
+Использование: `<j text>`
 
-### Rainbow + Wobble
+### Радуга + Колебание
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+Разрешение: `ia.user.text_effect.use.rw`\
+Использование: `<rw text>`
 
-### Rainbow + Jump
+### Радуга + Прыжки
 
 ![](../.gitbook/assets/rj.gif)
 
-Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+Разрешение: `ia.user.text_effect.use.rj`\
+Использование: `<rj text>`
 
-## Where can I use these effects?
+## Где можно использовать эти эффекты?
 
-* Custom item name (in the .yml file)
-* Custom item lore (in the .yml file)
-* Chat
-* Sign
-* Book
-* Bossbar
-* Prefix-Suffix (Luckperms for example)
-* _More soon...._
+* Имя предмета (в файле .yml)
+* Лор предметов (в файле .yml)
+* Чат
+* Табличка
+* Книга
+* Босс-бар
+* Префикс-Суффикс(На пример в LuckPerms)
+* _Скоро...._
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## How to create animated prefix (Luckperms)
+## Как создать анимированный префикс (Luckperms)
 
 ![](<../.gitbook/assets/immagine (133).png>)
 
@@ -111,4 +117,4 @@ Usage: `<rj text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+Нажмите, чтобы прочитать[ Официальную документацию LuckPerms](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) если вы не знаете, как работает префикс.

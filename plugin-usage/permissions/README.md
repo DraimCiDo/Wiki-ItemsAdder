@@ -36,17 +36,19 @@
       * Право использовать определенный эмоджи
         * `ia.user.image.use.<font image name>`
         * Пример: `ia.user.image.use.heart`
-      * Use **text-effects** in **chat**
-        * `ia.user.text_effect.chat`
-      * Use** text-effects** in **signs**
-        * `ia.user.text_effect.sign`
-      * Use **text-effects** in **books**
-        * `ia.user.text_effect.book`
-      * Use **text-effects** in **anvil **rename field
-        * `ia.user.text_effect.anvil`
-      * Use a **text-effect**
+    * Использование эмоджи в чате
+      * `ia.user.image.chat`
+    * Использование эмоджи в командах
+      * `ia.user.image.command`
+    * Использование эмоджи на табличках
+      * `ia.user.image.sign`
+    * Использование эмоджи в книгах
+      * `ia.user.image.book`
+    * Использование эмоджи в именах предметов в наковальне
+      * `ia.user.image.anvil`
+      * Использование **text-effect**
         * `ia.user.text_effect.use.<effect>`
-        * Examples ([full list here](../text-effects-1.17+.md)):
+        * Пример ([весь список здесь](../text-effects-1.17+.md)):
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
 
