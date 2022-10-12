@@ -1,6 +1,5 @@
-# ❓ Часто задаваемые вопросы
+# ❓ Frequently asked questions
 
-_**Какие типы предметов/оружия/луков существуют? Могу ли я создать предмет X, оружие Y... Могу ли я давать им атрибуты, могу ли, а могу ли, могу??? Умеет ли плагин такое или такое? Почему у меня такая проблема, а почему такая?**_
+_**What type of items/weapons/bows exists? Can I create item X, weapon Y... can I add this attribute, can I, can I, can I??? Has the plugin this feature? Why do I have this problem and that problem?**_
 
-Я написал это вики и всевозможные туториалы, чтобы ответить на максимальное число вопросов, поэтому не стоит задавать мне вопросы и просить помощи о перво-попавшихся проблемах на вашем пути создания конфигураций или если у вас есть частый вопрос. ПРОШУ, прежде чем что-то спрашивать - поищите информацию о вашем вопросе тут, а так же воспользуйтесь строкой поиска. Спасибо.
-
+I wrote this wiki and its tutorials as clearly as possible, so please don't send me support requests for the first problem you encounter configuring the plugin or if you have questions. Please use the wiki and its search bar on the top before doing this. Thanks!

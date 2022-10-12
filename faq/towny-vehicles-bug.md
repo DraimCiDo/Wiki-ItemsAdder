@@ -1,7 +1,7 @@
-# Ошибка в работе транспорта с установленным плагином Towny
+# Towny vehicles bug
 
 {% hint style="warning" %}
-Если вы столкнулись с проблемой транспорта (машин, самолетов) и вы используйте плагин Towny - откройте файл конфигурации Towny (config.yml) и удалите отсюда слизня (Slime):
+If you have problems with vehicles and you're using Towny plugin open Towny config.yml and remove Slime from here:
 {% endhint %}
 
 ```yaml

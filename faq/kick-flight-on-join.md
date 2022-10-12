@@ -1,18 +1,18 @@
 ---
-description: Игроки кикаются при установке ресурспака
+description: Players get kicked while installing the resourcepack
 ---
 
-# 🥾 Кик за полёт при подключении
+# 🥾 Kick flight on join
 
-## Основная проблема
+## The kick problem
 
-Некоторые серверы могут думать, что вы летаете во время установки ресурспака, это зависит от того, где находится ваше место спавна.
+Some servers may think you're flying while the resourcepack is installing, depends on where is your spawn location.
 
-Вы можете получить эту ошибку: <mark style="color:red;">"Полет не включен на этом сервере"</mark>, или кик может осуществляется от **анти-читов**.
+You may get this error: <mark style="color:red;">"Flying is not enabled on this server"</mark>, or getting kicked by an **anticheat**.
 
-## Как исправлять?
+## How to fix?
 
-Отключите параметр `hide-hud` в файле `config.yml`, который находится в папке плагина **ItemsAdder**.
+Disable the `hide-hud` feature in the `config.yml` file of **ItemsAdder**.
 
 ```yaml
   protect-player:
@@ -20,9 +20,9 @@ description: Игроки кикаются при установке ресур�
     hide-hud: false
 ```
 
-## По-прежнему осталась проблема
+## Still having the issue
 
-Включите параметр указанный ниже в файле `server.properties`:
+Enable this option in `server.properties` file:
 
 {% code title="server.properties" %}
 ```

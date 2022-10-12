@@ -1,2 +1,2 @@
-# ✅ Совместимость с другими плагинами
+# ✅ Compatibility with other plugins
 

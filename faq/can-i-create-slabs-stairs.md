@@ -1,24 +1,24 @@
-# Могу ли я создать полублоки, ступеньки, трезубцы или броню...
+# Can I create slabs, stairs, tridents, armors...
 
-### Блоки
+### Placeable
 
 {% hint style="warning" %}
- К сожалению вы не можете создать твердые блоки в виде полублоков, ступень и прочих. Проблема кроется в механике самой игры, игра будет отображать их неправильно из-за этого бага: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) Вы сможете создавать граненые блоки только тогда, когда разработчики игры решат эту проблему \(добавят специальный тэг, который сможет включить или выключить прозрачность блока, вместо постоянного включенного состояния. **"Непрозрачность"**\).
+ You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this bug: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) You'll be able to create custom shaped blocks when Mojang will fix this bug \(adding a special tag that can be turned on or off, now it's always on. **"Opaque"**\).
 
-Другая проблема кроется в том, что я не могу изменять хитбоксы блокам.. очередная издержка механик игры.
+Another reason is that I can't change hitbox of blocks.. sadly another Minecraft limitation.
 {% endhint %}
 
-### Трезубцы
+### Tridents
 
 {% hint style="warning" %}
-Вы не сможете создать иную модель для брошенного трезубца, которуя я не в силах решить. Ее могут решить только сами разработчики игры: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
+You can't create custom model for thrown tridents as it's a Minecraft bug I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
 {% endhint %}
 
-### Броня
+### Armors
 
 {% hint style="warning" %}
-Minecraft не дает возможности дать надетой броне собственную 3D текстуру или модель без использования Optifine.  
-Все, что вы можете - покрасить броню или заменить классические текстуры.
+Minecraft doesn't allow you in any way to add custom textures / custom 3D models to armors.  
+You can make them colored but you cannot change the texture.
 {% endhint %}
 
 {% page-ref page="../plugin-usage/adding-content/creating-a-custom-item/armor.md" %}

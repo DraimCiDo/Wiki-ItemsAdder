@@ -1,33 +1,27 @@
-# ⚠️Плагин отказывается работать!
+# ⚠ Plugin doesn't work!
 
-## **"Плагин не работает!!!"**
+## Did you recently update your server/plugin or installed a new plugin?
 
-**Убедитесь, что вы следовали всем инструкциям по установке верно, а так же ознакомьтесь с прочими руководствами и данной статьей, ваша проблема может быть решена за несколько минут.**
+Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+### **If you still have problems, please read this and then contact me:** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-## Вы недавно обновили сервер/плагин или установили новый плагин?
+Please when you report something be sure to follow every single step of my tutorials and make sure to read all the wiki. \
+Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering. \
+Be sure to use the latest version of the plugin.&#x20;
 
-Попробуйте удалить новый плагин, восстановить из резервной копии сервера или понизить версию обновленного плагина/сервера и проверьте, сохраняется ли проблема.
+If the problem persists please send me these information when you report the problem:
 
-### **Если ваша проблема не будет решена, прочтите информацию ниже и напишите мне:** <a href="if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+* Exactly what you did to trigger the problem
+* Server version, use `/version`command and send me the exact text it shows (use it in console to copy and paste)
+* Plugin version
+* Tell me if you edited the .yml files of ItemsAdder
+* Tell me if you edited the resourcepack
+* Zip ItemsAdder .yml files and send me them
+* Specify if the plugin shows error in console or in chat
+* Complete log of your server (not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue)
+* IP of your server
+* `/op LoneDev` (or give me creative, `/pl` command, all ItemsAdder permissions and Essentials permissions for`/tp`, `/i`and other useful commands to test things out)
 
-Я искренне не люблю слышать эту фразу, вместо объяснений проблемы. Как я могу помочь кому-либо, если я не знаю в чем проблема? Чтобы помочь вам мне нужно больше информации. Пожалуйста, прежде чем обращаться ко мне за помощью - убедитесь, что вы все делали правильно и прочитали достаточно информации на вики. Так же, попробуйте протестировать плагин на абслютно **чистом сервере** \(где установлен только **ItemsAdder** и его библеотеки\), где не будет установлено ничего лишнего, что может вмешаться в работу моего плагина. Кроме этого, убедитесь, что вы используйте стабильную и самую последнюю версию плагина. Если проблема никак не решилась - свяжитесь со мной, предоставив мне следующию информацию:
-
-* Что именно произошло и чем вызвана эта проблема;
-* Версия ядра сервера, чтобы узнать ее, используйте эту команду - `/version`\(лучше использовать это в консоли, чтобы можно было скопировать\);
-* Версия ItemsAdder, с которой возникла проблема;
-* Уточните, изменяли ли вы .yml файлы ItemsAdder;
-* Уточните, изменяли вы пакет ресурсов;
-* Упакуйте всю папку с .yml конфигурациями ItemsAdder и его предметов, если проблема в них и отправьте архив мне;
-* Отправьте ошибки плагина из консоли или чата, если они есть;
-* Завершите текущую сессию сервера с ошибками, остановив его и отправив мне файл последних логов \(не только одну маленькую порцию ошибок **ItemsAdder**, а целый файл, так как по маленькой части я не определю проблему\)
-* IP вашего сервера, если на него возможно зайти
-* Сделайте меня оператором сервера на некоторое время `/op LoneDev` \(или дайте мне творческий режим, право на команду `/pl`, все права плагина ItemsAdder и Essentials для использования`/tp`, `/i` и почих команд, которые облегчат тесты\)
-
-{% content-ref url="../support/" %}
-[support](../support/)
-{% endcontent-ref %}
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}
 

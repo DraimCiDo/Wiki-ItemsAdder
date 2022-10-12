@@ -1,20 +1,20 @@
 # Adding compatibility
 
-Добавить совместимость в элементы ItemsAdder очень просто!\
-**API** является **бесплатным** и доступен через пакет maven:
+Adding compatibility to ItemsAdder items is very easy!\
+**API** is **free** and available via maven package:
 
-{% content-ref url="../razrabotchikam/java-api/" %}
-[java-api](../razrabotchikam/java-api/)
+{% content-ref url="../developers/java-api/" %}
+[java-api](../developers/java-api/)
 {% endcontent-ref %}
 
-## Как получить элемент
+## How to get an item
 
-{% content-ref url="../razrabotchikam/java-api/examples.md" %}
-[examples.md](../razrabotchikam/java-api/examples.md)
+{% content-ref url="../developers/java-api/examples.md" %}
+[examples.md](../developers/java-api/examples.md)
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-### Важно
+## Important
 
-Пожалуйста, убедитесь, что вы слушаете событие **ItemsAdderFirstLoadEvent**. ItemsAdder загружает свои элементы и другие вещи асинхронно, поэтому вы должны дождаться этого события, прежде чем использовать API.
+Please make sure to listen to the **ItemsAdderFirstLoadEvent** event. ItemsAdder loads its items and other stuff async, so you have to wait for this event before using the API.
 {% endhint %}

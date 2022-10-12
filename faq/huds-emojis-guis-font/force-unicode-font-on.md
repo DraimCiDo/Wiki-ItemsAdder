@@ -1,6 +1,8 @@
-# 🈁Насильное использование символов юникода в настройках игры
+# 🈁 Force Unicode Font: ON
 
-## Ознакомьтесь с этой статьей:
+## Read here:
 
-{% page-ref page="../../plugin-usage/adding-content/advanced/fonts/method-1/thin-font-force-unicode.md" %}
+{% content-ref url="../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md" %}
+[thin-font-force-unicode.md](../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md)
+{% endcontent-ref %}
 

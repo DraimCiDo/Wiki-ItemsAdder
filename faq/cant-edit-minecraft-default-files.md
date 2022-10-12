@@ -1,10 +1,10 @@
 ---
-description: Редактирование стандартных json-файлов minecraft и предикатов.
+description: Edit default minecraft json files and predicates.
 ---
 
-# Не могу изменять классические текстуры игры
+# Can't edit minecraft default files
 
-Чтобы иметь возможность редактировать заводские файлы игры, вы должны выставить значение `false` для строки ниже, найти ее можно в основном файле конфигурации плагина `config.yml`
+To edit default minecraft json files you have to set this setting to `false` in `config.yml` of **ItemsAdder**.
 
 ```yaml
 overwrite-vanilla-models: false

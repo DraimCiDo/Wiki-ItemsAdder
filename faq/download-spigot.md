@@ -1,12 +1,18 @@
-# Скачать Spigot
+# Download Spigot
 
-## Как скачать бумагу \(альтернатива Спигот\)
+## How to download Paper (alternative to Spigot)
 
-{% embed url="https://papermc.io/downloads" caption="" %}
+{% embed url="https://papermc.io/downloads" %}
 
-## Как скачать Spigot
+## How to download Spigot
 
-Посмотрите этот учебник:
+Watch this tutorial:
 
-{% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" %}
+
+## How to download Purpur
+
+{% embed url="http://purpur.pl3x.net" %}
+
+
 

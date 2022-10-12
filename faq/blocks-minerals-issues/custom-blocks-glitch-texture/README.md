@@ -1,2 +1,2 @@
-# Глюк кастомной текстуры блока
+# Custom blocks glitch texture
 

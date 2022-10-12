@@ -1,24 +1,22 @@
-# Вместо блоков падают Мухоморы, Хорусы, Нотные блоки
+# Blocks drop Mushrooms, Chorus, Noteblocks
 
-Если вы с этим столкнулись, ознакомьтесь с этой статьей, **прежде чем просить помощи**:
+### First reason
 
-## Первая причина
+If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
 
-Установлен ли плагин [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)у вас? Если да - [ознакомьтесь](https://github.com/LoneDev6/ItemsAdder/issues/123)
+### Second reason
 
-## Вторая причина
-
-Удаляли ли вы папку ItemsAdder из папки плагинов? Не делайте этого.
+Did you delete the custom blocks folders in your world? Don't do it.
 
 ![](<../../.gitbook/assets/immagine (98).png>)
 
-Если вы удалите папку ItemsAdder - расспрощаетесь со всеми блоками плагинами в вашем мире.
+If you delete it you lose every custom ItemsAdder block data in the world.
 
-## Третья причина
+### Third reason
 
-Поврежденные чанки. Это происходит если вы:
+Corrupted chunk. This can happen if you:
 
-* положили сервер, когда плагин сохранял данные о регионе мира в файл
-* проблема накопителя (жесткого диска/ССД), где хранится сервер, из-за чего сохранение данных плагином о мире было заблокировано
-* перезагрузите плагин с помощью **Plugman** или аналогичной команды.
-* перезагрузите сервер с помощью команды `/reload`.
+* killed the server while it was saving an IA region file
+* full disk problem which blocked saving of files
+* reloaded the plugin using **Plugman** or similar
+* reloaded the server using `/reload` command

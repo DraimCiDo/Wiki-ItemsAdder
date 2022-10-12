@@ -1,6 +1,8 @@
-# Произошла ошибка при включении ресурспака
+# An error occurred when enabling the resourcepack
 
-## Ознакомьтесь с этим:
+## Read here
 
 {% page-ref page="../resourcepack-not-loading.md" %}
+
+
 

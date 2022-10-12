@@ -1,25 +1,25 @@
-# Проблемы с книгой рецептов
+# Recipes book problems
 
 {% hint style="info" %}
-Эти ограничения действительны для КАЖДОГО плагина Spigot, который создает пользовательские рецепты с пользовательскими предметами в качестве ингредиентов, это не ошибка ItemsAdder, и я не могу ее никак исправить.
+These limitations are valid for EVERY Spigot plugin that creates custom recipes with custom items as ingredients, it's not an ItemsAdder bug and I can't fix it in any way.
 
-Пожалуйста, не сообщайте об этих ошибках, я не могу ничего сделать, чтобы исправить эту проблему, это ограничение Minecraft.
+Please don't report these bugs, I can't really do anything to fix this problem, it's a Minecraft limitation.
 {% endhint %}
 
-## Кнопка "Showing Craftable" работает некорректно
+## "Showing Craftable" button not working correctly
 
-Кнопка "Showing Craftable" не работает с рецептами, в которых в качестве ингредиентов используются пользовательские предметы.
+"Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
 
 ![](<../.gitbook/assets/immagine (148).png>)
 
-### Как это исправить?
+### How to fix?
 
-Требуется назначить кнопку таким образом, как показано на скриншоте ниже, чтобы она открывала рецепты ItemsAdder.
+Set the button like that when you want to find an ItemsAdder recipe in the book.
 
 ![](<../.gitbook/assets/immagine (155).png>)
 
-## Красные рецепты, даже если ингредиенты есть в инвентаре
+## Red recipes even if ingredients are in inventory
 
-Для этого нет исправления, это ошибка Minecraft.
+There is no fix for this, it's a Minecraft bug.
 
 ##

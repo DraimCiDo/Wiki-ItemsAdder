@@ -1,10 +1,9 @@
-# 🐌Плагин загружается слишком медленно
+# 🐌 Plugin loading very slow
 
-## После нескольких недель/месяцев ItemsAdder стал загружаться слишком медленно
+## After some weeks/months ItemsAdder loading is very slow
 
-Вы можете легко исправить это, воспользуйтесь инструкцией:
+You can easily fix this, follow these steps:
 
-* остановите работу сервера
-* удалите файл по пути `plugins\ItemsAdder\storage\cache\various\fixed_glitched_blocks.nbt` 
-* запустите работу сервера
-
+* stop the server
+* delete this file `plugins\ItemsAdder\storage\cache\various\fixed_glitched_blocks.nbt`&#x20;
+* start the server

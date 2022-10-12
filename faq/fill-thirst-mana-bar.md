@@ -1,23 +1,24 @@
-# Полоски жажды/маны
+# Thirst/mana bar
 
-## Заполнить их
+## Fill them
 
-Чтобы пополнить полоску жажды используйте команду `/iaplayerstat write LoneDev thirst float 10`
+To fill the thirst bar use `/iaplayerstat write LoneDev thirst float 10`
 
 ![](../.gitbook/assets/immagine%20%281%29.png)
 
-Чтобы пополнить полоску ман, используйте команду `/iaplayerstat write LoneDev mana float 5`
+To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
 
 ![](../.gitbook/assets/immagine.png)
 
-## Отключить жажду
+## Disable thirst
 
-* откройте файл по пути plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
-* установите enabled: false
-* используйте команду /iareload
-## Отключить ману
+* open plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
+* set enabled: false
+* use /iareload command
 
-* откройте файл по пути plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
-* установите enabled: false
-* используйте команду /iareload
+## Disable mana
+
+* open plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
+* set enabled: false
+* use /iareload command
 

@@ -1,8 +1,8 @@
-# Прозрачность текстур и моделей для мебели
+# Create transparent textured furnitures
 
 {% hint style="warning" %}
-Если вы хотите сделать прозрачные/полупрозрачные текстуры или модели, убедитесь, что за основу взят ванильный предмет, который поддерживает прозрачность.  
-В качестве примера:
+If you want to make some transparent/semi transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.  
+For example:
 {% endhint %}
 
 ```yaml
@@ -12,5 +12,5 @@ resource:
   model_path: item/your_model
 ```
 
-![Пример: бутылки для зелий с прозрачностью](../.gitbook/assets/image%20%283%29.png)
+![Example: potion bottles with semi-trasparency](../.gitbook/assets/image%20%283%29.png)
 
